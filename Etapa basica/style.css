@@ -1,0 +1,102 @@
+@charset "UTF-8";
+ /*Se em html é id = em css é #
+   Se em html é class = em css é . 
+
+body{
+    background-color: rgb(185, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color:darkmagenta;
+}
+
+h1#principal{
+    text-align: center;
+    color: #F78764;
+    background-color: #083D77;
+}
+.basico{
+    font-family: verdana;
+    color: #F78764;
+}
+
+.destaque{
+    background-color: #083D77;
+    background-position: 10%;
+}
+
+.identação{
+    text-indent: 10px;
+}*/
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius:20px ;
+    text-align: center;
+}
+nav{
+    background-color: rgb(138, 138, 138);
+    padding: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+    border-radius: 8px;
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+nav > a:hover{
+    text-decoration: underline;
+    color:#44BBA4 ;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+article > aside{
+    background-color: rgb(180, 178, 178);
+}
+footer{
+    background-color: black;
+    background-position: justify;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 4px;
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(174, 174, 174);
+    border-radius: 100px;
+    margin: 10px;
+}

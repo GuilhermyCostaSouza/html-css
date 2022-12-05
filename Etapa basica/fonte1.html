@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+        /* A ordem é a seguinte:
+        font-style
+        font-weight
+        font-size
+        font-family*/
+        body{
+            font-family: verdana;
+            font-weight: normal;
+            font-size: 1em;
+            font-style: normal;
+            text-decoration: none;
+        }
+
+        h2{
+        
+
+          /*  font-family: italica, Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: Courgette, bolder 4em italic, verdana;
+
+        }
+
+        h1#cor{
+            color: #F4D35E;
+        }
+        aside{
+            background-image: linear-gradient(to bottom, #83e1ad, white );
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            color: red;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        abbr{
+            text-decoration: none;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <header><h1 id="cor">Aqui está a página Home</h1></header>
+
+
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, voluptas autem dolorum amet tempora molestiae veniam tempore voluptatibus placeat vel consequuntur ut incidunt quisquam delectus sit provident eius voluptatum. Quibusdam?</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, rem error! Dolores ipsam eos qui nihil necessitatibus molestiae natus, omnis laudantium quas odit labore optio voluptatem aspernatur deleniti corporis dolorem!</p>
+
+    <aside><strong><a href="mini_projeto.html"><abbr title="Voltar pra pagina de antes">Voltar para pagina inicial</abbr></a></strong></aside>
+
+</body>
+
+</html>
