@@ -1,0 +1,38 @@
+:root{
+    --corpri: #083D77;
+    --corsec: #49f9d0;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color: var(--corsec);
+    outline: none;
+    color: var(--corpri);
+}
+
+h1:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.btn-success:hover{
+    background-color: rgb(252, 252, 108);
+    transition-duration: 0.5s;
+}
+
+aside > p{
+    display: none;
+}
+
+aside p:hover{
+    display: block;
+}
+
+
+
